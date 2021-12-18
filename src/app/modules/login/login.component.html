@@ -1,0 +1,13 @@
+<StackLayout paddingTop=200 paddingLeft=30 paddingRight=30 backgroundColor="#2e9b49">
+
+  <Label class="h1 name-app text-center m-b-2" text="AppTest"></Label>
+
+  <Label class="label-form m-t-4" text="Usuario"></Label>
+  <TextField class="textfield" [(ngModel)]="user" autocorrect="false" autocapitalizationType="none"></TextField>
+
+  <Label class="label-form" text="Contraseña"></Label>
+  <TextField class="textfield" [(ngModel)]="password" autocorrect="false" autocapitalizationType="none"></TextField>
+
+  <Button text="Ingresar" class="m-t-5 btn btn-primary" (tap)="login()"></Button>
+
+</StackLayout>
